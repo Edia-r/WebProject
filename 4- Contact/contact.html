@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact</title>
+      <link rel="stylesheet" href="../Css/styles.css">
+      <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <header class="page-header">
+        
+        <!--Navbar-->
+        <nav class="navbar">
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="../1- Home/home.html" class="navbar__link"><span>Home</span> </a>
+            </li>
+            <li class="navbar__item">
+              <a href="../2- QSN/qsn.html" class="navbar__link"><span>QSN</span></a>        
+            </li>
+            <li class="navbar__item">
+              <a href="../3- Habitant/habitant.html" class="navbar__link"><span>Habitant</span></a>        
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link"><span>Contact</span></a>        
+            </li>
+          </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+      <div class="contact-container">
+        <h1>Formulaire de contact</h1>
+
+        <!-- Form -->
+
+        <form action="/thanks_page.php">
+          <label for="fname">Nom & prénom</label>
+          <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+      
+          <label for="sujet">Sujet</label>
+          <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+      
+          <label for="emailAddress">Email</label>
+          <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+      
+      
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+      
+          <input type="submit" value="Envoyer">
+        </form>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="section footer-minimal context-dark">
+
+      <div class="container wow-outer">
+        <div class="fadeIn">
+            <div class="col-12">
+              <ul class="footer-minimal-nav">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">Questions</a></li>
+                <li> <a href="../Contacts/contacts.html">Contact</a></li>
+                <li> <a href="#">QSN</a></li>
+                <li> <a href="../AboutUs/about-us.html">A propos</a></li>
+              </ul>
+            </div>
+
+            <div class="col-12">
+              <ul class="social-list">
+                <li> <a class="icon icon-sm icon-circle icon-circle-md icon-bg-white" href="#"> <img src="../Images/5279114_linkedin_network_social network_linkedin logo_icon.png" alt="LinkedIn"> </a></li>
+                <li> <a class="icon icon-sm icon-circle icon-circle-md icon-bg-white" href="#"> <img src="../Images/5279111_network_fb_social media_facebook_facebook logo_icon.svg" alt="Facebook"> </a></li>
+                <li> <a class="icon icon-sm icon-circle icon-circle-md icon-bg-white" href="#"> <img src="../Images/5279112_camera_instagram_social media_instagram logo_icon.svg" alt="Instagram"> </a></li>
+                <li> <a class="icon icon-sm icon-circle icon-circle-md icon-bg-white" href="#"> <img src="../Images/5279120_play_video_youtube_youtuble logo_icon.svg" alt="Youtube"> </a></li>
+                <li> <a class="icon icon-sm icon-circle icon-circle-md icon-bg-white" href="#"> <img src="../Images/5279123_tweet_twitter_twitter logo_icon.png" alt="X"> </a></li>
+              </ul>
+            </div>
+
+          <p class="rights"> <span>&copy;&nbsp; </span> <span class="copyright-year"></span> <span>&nbsp;</span> <span>ESNA</span> <span>.&nbsp;</span> <span>&nbsp;</span> <a href="#">Privacy Policy</a>. Design&nbsp;by&nbsp;Edia-r</a></p>
+        </div>
+      </div>
+
+    </footer>
+
+   </body>
+
+</html>
